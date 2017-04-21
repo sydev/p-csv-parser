@@ -3,7 +3,7 @@
 
   const fs = require('fs-promise');
 
-  const csvParser = require('../p-csv-parser');
+  const csvParser = require('../');
 
   const filepath = __dirname +'/test.csv';
 
