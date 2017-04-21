@@ -7,9 +7,9 @@
 
   const filepath = __dirname +'/test.csv';
 
-  describe('parse geonames export', () => {
+  describe('Successfully parsed', () => {
 
-    test('promise', () => {
+    test('parse csv file', () => {
       return fs.readFile(filepath, 'utf-8')
         .then(content => csvParser(content, {delimiter: '|'}))
         .then(results => {
