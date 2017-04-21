@@ -1,14 +1,17 @@
 {
   "name": "p-csv-parser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/jest"
   },
-  "keywords": [],
-  "author": "",
-  "description": "",
+  "keywords": ["csv", "parse", "parser", "fast", "simple", "promise"],
+  "author": {
+    "name": "Dominik Winter",
+    "email": "dominik.winter92@gmail.com"
+  },
+  "description": "A simple and blazing fast csv parser, promisified.",
   "devDependencies": {
     "fs-promise": "^2.0.2",
     "jest": "^19.0.2"
