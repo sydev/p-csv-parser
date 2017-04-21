@@ -1,0 +1,16 @@
+{
+  "name": "p-csv-parser",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "fs-promise": "^2.0.2",
+    "jest": "^19.0.2"
+  }
+}
