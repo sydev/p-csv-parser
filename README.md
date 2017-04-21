@@ -1,5 +1,7 @@
 # p-csv-parser
 
+[![Build Status](https://travis-ci.org/sydev/p-csv-parser.svg?branch=master)](https://travis-ci.org/sydev/p-csv-parser)
+
 A simple and blazing fast csv parser, promisified.
 
 ## Table of contents
