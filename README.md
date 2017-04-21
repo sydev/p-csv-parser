@@ -52,5 +52,7 @@ $ npm test
 
 ## Changelog
 
+- 1.0.1
+  - Fix module error
 - 1.0.0
   - Initial Release
