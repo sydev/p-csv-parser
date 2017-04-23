@@ -23,17 +23,16 @@
         len         = rows.length,
         headersLen  = headers.length, 
         results     = [],
-        obj         = {},
-        row, j;
+        obj, row, j;
 
       for (; i < len; i++) {
         // Skip emty lines
         if (rows[i].length === 0) continue;
         
         row = rows[i].split(options.delimiter);
-        j   = 0;
+        obj = {};
 
-        for (; j < headersLen; j++) {
+        for (j = 0; j < headersLen; j++) {
           // Set empty fields to null
           if (row[j].length === 0) obj[headers[j]] = null;
           else obj[headers[j]] = row[j];

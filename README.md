@@ -52,6 +52,8 @@ $ npm test
 
 ## Changelog
 
+- 1.0.2
+  - Fix error with large files. Tested with file containing roundabout 155000 lines
 - 1.0.1
   - Fix module error
 - 1.0.0
